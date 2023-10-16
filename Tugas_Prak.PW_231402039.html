@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ikhsan Portfolio</title>
+    <link rel="stylesheet" href="Prak2.css" />
+  </head>
+  <body class="darkmode" id="body">
+    <section id="section-1" name="Home"></section>
+    <div class="container">
+      <img src="Logo_-removebg-preview.png" alt="" id="logo" />
+      <div class="nav">
+      <a href="#section-1" class="button" >Home</a>
+      <a href="#section-2" class="button" id="button2">About</a>
+      <a href="#section-3" class="button"id="button1">Experience</a>
+      <a href="Portofolio1.pdf" class="button" target="_blank">Portofolio</a>
+      <button onclick="darkmode()" class="button">Brown Mode</button>
+      </div>
+      <div class="depan">
+      <img src="foto.pribadi.jpeg" id="foto" alt="" style="width: 48%;">
+      <div class="tulis">
+      <b>HELLO I'M IKHSAN SHAH POHAN,</b> <br>
+        <b> A STUDENT IN UNIVERSITY </b> <br>
+        <b>OF NORTH SUMATERA </b> <br>
+        <i>You want to know more about me?</i> 
+        <i>Let's scroll and check my instagram</i> <br>
+        <div class="ig">
+        <img src="Picture1.png" alt="" style="width: 10%; ">
+        <a href="https://www.instagram.com/ikhsan_0.0/" class="insta" target="_blank">ikhsan_0.0</a>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    <section id="section-2" name="About">
+      <div class="konten" name="about">
+        <div class="x"> 
+          <img src="logo it (1).png" alt=""  class="gam">
+          <p>TAKING THE INFORMATION TECHNOLOGY</p>
+          <p>The Information Technolgy made the live easier and</p>
+          <p>makes the other people helped by Online Base Technolgy</p>
+        </div>
+
+        <div class="x">
+          <img src="logocooking-removebg-preview (1).png" alt="" id="" class="gam">
+          <p>LIKE COOKING FOOD WHEN WAS KID</p>
+          <p>Every people had eating food every day</p>
+          <p><i>"The people will happy if you make the good food"</i></p>
+
+        </div>
+        <div class="x">
+          <img src="logorestoran (1).png" id="" alt="" class="gam" >
+          <p>HAVE A DREAM TO MAKE RESTAURANT</p>
+          <p >Some people say</p> 
+          <p ><i>"If you want to make a good business</i></p>
+          <p><i>then you have to start with Culinary Business"</i></p>
+        </div> 
+      </div>
+    </section>
+    <section id="section-3" name="Experience">
+      <div class="konten4">
+        <div class="kontenm">
+        <img src="logoword-removebg-preview.png" alt="" class="m">
+        <img src="logoexcel-removebg-preview.png" alt="" class="m">
+        <img src="logoppt-removebg-preview.png" alt="" class="m">
+        </div>
+        <div class="tls">
+        <b style="font-size: larger;">HAVE BEEN JOINED MICROSOFT OFFICE COURSE IN 17</b> <br> <br>
+        This course makes me understood a little bit about
+        Microsoft Word, Microsoft Excel and Microsoft Powerpoint  
+      </div>
+      </div>  
+  
+     <script>
+        let body = document.getElementById('body')
+        function darkmode() {
+        if(body.classList.contains('darkmode')){
+            body.classList.remove('darkmode')
+      }
+      else {
+          body.classList.add('darkmode')
+        }
+      }
+   
+  </script>
+  </body>
+</html>
